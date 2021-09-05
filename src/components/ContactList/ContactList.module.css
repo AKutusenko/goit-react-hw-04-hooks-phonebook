@@ -1,0 +1,38 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(
+    to right,
+    #9eefe1 0%,
+    #4830f0 51%,
+    #9eefe1 100%
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  width: 100px;
+  height: 30px;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.listItem {
+  text-shadow: 1px 1px 1px silver, -1px 1px 1px silver;
+  color: white;
+}
+
+.list {
+  width: 400px;
+  text-align: right;
+  margin: 0 auto;
+  padding-right: 20px;
+}
